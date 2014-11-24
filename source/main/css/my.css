@@ -1,0 +1,224 @@
+/* start login_box */
+.login_box{
+	display: block;
+	float:right	;
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+    border-radius:0px 9px 0px 0px;
+    cursor: pointer;
+}
+.login_box:hover{
+}
+.login_box p{
+	float:left;
+}
+.login_box p a.signup{
+	color:#5d5d5d;
+	font-size:0.8em; 
+    padding-right:10px;
+    border-right:1px solid #888; 
+}
+/*-------LOGIN STARTS HERE -------*/
+#loginContainer {
+    position:relative;
+    float:right;
+}
+/* Login Button */
+#loginButton { 
+    display:inline-block;  
+    position:relative;
+    z-index:30;
+    cursor:pointer;
+}
+/* Login Button Text */
+#loginButton span {
+	padding:10px 7px;
+	display: block;
+}
+/* Login Box */
+#loginBox {
+    position:absolute;
+    top:63px;
+    right:0px;
+    display:none;
+    z-index:29;
+}
+/* Login Form */
+#loginForm {
+	float: right;
+	width: 300px;
+	background: #fff;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-o-border-radius: 3px;
+}
+#loginForm fieldset {
+    margin:0 0 10px 0;
+    display:block;
+    border:0;
+    padding:0;
+}
+fieldset#body {
+    padding: 10px 20px 20px;
+    margin:0;
+}
+#loginForm #checkbox {
+    width:auto;
+    margin:1px 6px 0 0;
+    float:left;
+    padding:0;
+    border:0;
+    *margin:-3px 9px 0 0; /* IE7 Fix */
+}
+#body label {
+   	color: #3a454d;
+    margin:9px 0 0 0;
+    display:block;
+    float:left;
+}
+#loginForm #body fieldset label{
+    display:block;
+    float:none;
+    margin:0 0 6px 0;
+}
+#body label i a{
+	font-size: .82355em;
+	color: #686666;
+	text-transform: uppercase;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+#body label i a:hover{
+	color: rgba(122, 247, 31, 0.63);
+	box-shadow: none;
+}
+/* Default Input */
+#loginForm input {
+   width: 100%;
+	border: 1px solid #4886C9;
+	color: #000;
+	padding: 8px 8px;
+	font-size: 0.85em;
+	font-family: 'Open Sans', sans-serif;
+	margin: 1em 0 1.5em 0px;
+	display: block;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-o-border-radius: 3px;
+}
+#loginForm input[type="submit"] {
+	background: #4886C9;
+	color: #fff;
+	width: 30%;
+	display:block;
+	float:left;
+	padding: 8px 8px;
+	font-size: 0.85em;
+	font-family: 'Open Sans', sans-serif;
+	margin: 1em 0 1.5em 0px;
+	display: block;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-o-border-radius: 3px;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+#loginForm #login:hover {
+	color:rgba(113, 183, 62, 0.63);
+}
+/* Sign In Button */
+#loginForm #login {
+	font-family: 'Open Sans', sans-serif;
+	text-transform: uppercase;
+	width: auto;
+	float: left;
+	background: #3889CF;
+	color: #fff;
+	font-size: 0.9em;
+	padding: 10px 18px;
+	border: none;
+	margin: 0 12px 0 0;
+	cursor: pointer;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+#loginForm input[type="submit"]:hover {
+	color:rgba(113, 183, 62, 0.63);
+}
+/* Forgot your password */
+#loginForm span {
+    display:block;
+    padding:0px 15px 15px 15px;
+}
+#loginForm span a{
+    color:#3a454d;
+    font-size:0.8em;
+}
+#loginForm span a:hover{
+	text-decoration:underline;
+}
+input:focus {
+    outline:none;
+}
+.menu li.register a:hover, .menu li.register.active a {
+	color: #fff;
+	background: #3889CF;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-o-border-radius: 3px;
+	-ms-border-radius: 3px;
+}
+/*end-login-box*/
+/*--- button ---*/
+.button {
+	margin:10% 0 0;
+}
+.button a input[type="submit"]{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.2em;
+	color: #F5ECE7;
+	background: none;
+	outline: none;
+	padding: 15px 50px;
+	border: 2px solid #F5ECE7;
+	border-radius: 2em;
+	cursor: pointer;
+	font-weight: 600;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.button a input[type="submit"]:hover{
+	color:#F5A87C;
+	border: 2px solid #F5A87C;
+}
+.menu img{
+	display:block;
+}
+#loginBox::before {
+	content: '';
+	position: absolute;
+	top: -9px;
+	right: 42px;
+	width: 0;
+	height: 0;
+	border-left: 10px solid transparent;
+	border-bottom: 10px solid #FFFFFF;
+	border-right: 10px solid transparent;
+}
+
+<!--SLAAS -->
+
